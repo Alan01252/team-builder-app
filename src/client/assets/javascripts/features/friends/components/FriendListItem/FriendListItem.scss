@@ -1,0 +1,16 @@
+.fixedHeight {
+  min-height: 454px;
+  margin-bottom: 10px;
+}
+
+
+.hideOverflow {
+  min-height: 404px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.memberCard {
+  max-height: 150px;
+  overflow: auto;
+}
