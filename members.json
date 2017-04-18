@@ -1,0 +1,60 @@
+{
+  "radar": {
+    "labels": [
+      "Linux",
+      "Cloud",
+      "Coding",
+      "Certifications"
+    ]
+  },
+  "members": [
+    {
+      "id": 0,
+      "name": "Frank Butcher (A10)",
+      "title": "Principal Applications Consultant",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper commodo sagittis. Proin egestas ipsum viverra sem finibus rutrum. Duis.",
+      "role": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper commodo sagittis. Proin egestas ipsum viverra sem finibus rutrum. Duis.",
+      "startDate": "2016-01-01",
+      "radar": {
+        "data": [
+          65,
+          59,
+          90,
+          81
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "Bob Williams (A9) ",
+      "title": "Managing Software Engineer",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper commodo sagittis. Proin egestas ipsum viverra sem finibus rutrum. Duis.",
+      "role": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper commodo sagittis. Proin egestas ipsum viverra sem finibus rutrum. Duis.",
+      "startDate": "2016-01-01",
+      "radar": {
+        "data": [
+          65,
+          59,
+          90,
+          81
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alan Hollis (A7)",
+      "title": "Software Engineer",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper commodo sagittis. Proin egestas ipsum viverra sem finibus rutrum. Duis.",
+      "role": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper commodo sagittis. Proin egestas ipsum viverra sem finibus rutrum. Duis.",
+      "startDate": "2016-01-01",
+      "radar": {
+        "data": [
+          65,
+          59,
+          90,
+          81
+        ]
+      }
+    }
+  ]
+}

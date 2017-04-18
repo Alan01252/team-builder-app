@@ -1,0 +1,18 @@
+#!/bin/sh
+aws s3api create-bucket --bucket ${team-bucket} --region us-west-1
+
+aws lambda create-function \
+--region us-west-2 \
+--function-name new-starter-cron \
+--zip-file fileb://./lamdbas/helloworld.zip \
+--role role-arn \
+--handler new-starter-cron.handler \
+--runtime nodejs6.10 \
+--profile adminuser 
+
+
+
+# http://blog.rowanudell.com/scheduling-lambda-functions-with-the-aws-cli/
+# aws lambda add-permission --function-name MyFunctionName --statement-id SomethingUnique --action 'lambda:InvokeFunction' --principal events.amazonaws.com --source-arn arn:aws:events:us-east-1:MYACCOUNTNUM:rule/DailyRule  
+# aws events put-rule --schedule-expression 'rate(1 day)' --name teamMemberDaily
+# aws events put-targets --rule teamMemberDaily --targets '{"Id" : "1", "Arn": "arn:aws:lambda:us-east-1:MYACCOUNTNUM:function:MyFunctionName"}'  
